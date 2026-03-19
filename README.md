@@ -25,14 +25,20 @@
 ---
 
 ### 🧬 Engine Architecture (How it Works)
-StarkScan doesn't just "ping" ports. It utilizes **Asynchronous Socket Concurrency** and **Banner Grabbing** to identify not just if a port is open, but what "soul" is living inside it.
+Military-grade stealth VPN. FBI/CBI level security. Zero logs, zero leaks, and 100% untraceable. Become a ghost in the machine
 
 #### **Key Features:**
-- ⚡ **Turbo-Threaded Execution:** 500+ ports scanned per second using advanced threading.
-- 🕵️ **Service Fingerprinting:** Automatic Banner Grabbing to identify SSH, HTTP, FTP, and more.
-- 📉 **JSON Output:** Integration-ready reports for **OMNIX AI** or RAG systems.
-- 🛡️ **Stealth Mode:** Minimal TCP handshake footprint to evade basic firewalls.
+🌌 Triple-Node Ghost Tunnel: Routes 100% of your system traffic through three random global relays (Guard -> Middle -> Exit), making your origin untraceable.
 
+🎭 Hardware Chameleon: Instant, automated MAC Address randomization and Hostname masking to bypass local network tracking and hardware fingerprinting.
+
+⚡ Zero-Leak Kill-Switch: Integrated iptables shield that instantly kills all internet traffic if the secure tunnel drops. No IP leaks, ever. * 🔒 DNS Hardening: Forces all DNS queries through an encrypted loopback (127.0.0.1) to prevent ISP or Government-level DNS Hijacking.
+
+🛡️ Military-Grade Stealth: Engineered to evade deep packet inspection (DPI) and high-level surveillance from agencies like the FBI/CBI.
+
+🧹 Anti-Forensic Cleanup: One-click session "Nuke" that restores your original system state and purges temporary network logs on exit.
+
+🚀 Transparent Proxying: No complex configurations needed. Just run the engine and every tool in your Kali Linux arsenal (Nmap, Burp, etc.) becomes invisible.
 ---
 
 ### 🛠️ Technical Arsenal (Stack)
@@ -55,4 +61,4 @@ git clone [https://github.com/kartiksh2007/starkscan.git](https://github.com/kar
 cd starkscan
 
 # Initiate first scan
-python3 starkscan.py --target <ip-address> --threads 100
+sudo python3 starkscan.py
